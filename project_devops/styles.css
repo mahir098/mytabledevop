@@ -1,0 +1,93 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(9, 13, 12);
+    font-family: cursive;
+    font-size: large;
+    
+
+}
+
+.brand-title{
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0 7vw;
+    background-color: rgb(157, 235, 235);
+}
+
+/*nav{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}*/
+
+header ul{
+    display: flex;
+    text-align: right; 
+    /*padding-left: 50px;
+    padding-bottom: 25px;*/
+}
+
+.nav ul li{
+    padding: 5 5px;
+    font-weight: bold;
+}
+
+.nav ul li:hover{
+    color: rgb(140, 113, 7);
+}
+
+.home{
+    background-color: rgb(247, 218, 183);
+    padding-left: 10px;
+}
+
+.first_slide{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.first_slide div h1{
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.first_slide div p{
+    font-size: 20px;
+}
+
+/*.register{
+    display: flex;
+    align-items: center;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}*/
+
+.container input{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.register-login{
+    position: relative;
+    background: rgb(250, 249, 248);
+    padding: 0 3rem;
+
+    
+
+}
+
+
+
